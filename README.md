@@ -2,8 +2,6 @@
 
 *Digital Kitchen* is a personal recipe application designed to help users manage and share their own recipes easily and efficiently. The app offers a variety of features tailored to individual needs, including creating and organizing recipes, browsing by categories, managing personal profiles, and more. The design emphasizes simplicity and an intuitive user experience, making it easy for each user to keep track of their culinary creations.
 
-## Digital Kitchen App
-
 ## 🔑 Key Features
 
 - *Recipe Management:* Easily create, edit, and delete recipes. Each recipe includes a name, list of ingredients, preparation steps, and cooking time.
