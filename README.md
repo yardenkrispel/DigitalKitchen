@@ -9,8 +9,7 @@
 - *User Profile:* Create and manage a personal profile, including personal information and profile picture.
 - *Image Upload:* Upload images for recipes directly from your device's gallery.
 - *Advanced Search:* Quickly find recipes by name or ingredient using the built-in search feature.
-## 📸 Screenshots
-(Add screenshots of your app here to give users a visual sense of the interface)
+
 
 ## 🚀 Installation
 To start using *Digital Kitchen*, follow these steps:
