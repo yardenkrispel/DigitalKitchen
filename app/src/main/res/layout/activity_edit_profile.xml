@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="860dp"
+    android:background="@color/white"
+    tools:context="com.example.digitalkitchen.LoginRegisterProfile.EditProfile">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar_top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ערוך פרופיל"
+        android:textColor="@color/_______color"
+        android:textSize="25dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_baseline_arrow_back_24_red"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/edit_IMG_user"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile_pic"
+        app:shapeAppearanceOverlay="@style/CircleImageViewStyle"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/base_ek1_color"
+        android:onClick="btnEditImage"
+        android:background="@drawable/rounded_edittext"
+        android:text="בחר תמונה"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="185dp"
+        android:textColor="@color/_______color"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:layout_weight="1"
+        android:text="שם מלא"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שם מלא"
+        android:layout_weight="1"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="300dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/_______color"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:layout_weight="1"
+        android:text="מייל"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="מייל"
+        android:layout_weight="1"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="335dp"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        android:textColor="@color/_______color"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/editUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="511dp"
+        android:layout_weight="1"
+        android:text="שם משתמש"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שם משתמש"
+        android:layout_weight="1"
+        android:layout_marginTop="511dp"
+        android:layout_marginLeft="270dp"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        android:textColor="@color/_______color"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPassword"
+        android:layout_weight="1"
+        android:text="סיסמא"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="סיסמא"
+        android:layout_weight="1"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="310dp"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        android:textColor="@color/_______color"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="שמור"
+        android:gravity="center"
+        android:id="@+id/saveButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/_______color"
+        android:textSize="18sp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/button_design"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="760dp"
+        android:src="@drawable/navbar_menu"/>
+
+
+
+    <ImageView
+        android:id="@+id/homeBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="775dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/category_img6"/>
+
+
+
+
+</RelativeLayout>

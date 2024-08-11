@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="860dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img"
+    tools:context="com.example.digitalkitchen.LoginRegisterProfile.RegisterActivity">
+    <include layout="@layout/registerbar"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digitalkitchenbig"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/register_layout_img4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הרשמה"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="405dp"
+        android:drawablePadding="12dp"
+        android:layout_marginRight="65dp"
+        android:ems="10"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_register_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile_pic"
+        app:shapeAppearanceOverlay="@style/CircleImageViewStyle"/>
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/base_ek1_color"
+        android:onClick="btnSelectImage"
+        android:text="בחר תמונה"
+        android:gravity="center"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/_______color"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"/>
+
+
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:drawablePadding="12dp"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="שם מלא"
+        android:paddingStart="12dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:drawablePadding="12dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_baseline_person_pin_24"
+        android:hint="שם משתמש"
+        android:paddingStart="12dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:drawablePadding="12dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:hint="אימייל"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:drawablePadding="12dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="                                          סיסמה"
+        android:gravity="right"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/base_ek1_color"
+        android:text="צור משתמש"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/_______color"
+        android:layout_marginTop="712dp"/>
+
+
+
+</RelativeLayout>

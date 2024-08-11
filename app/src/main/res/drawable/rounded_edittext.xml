@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white"/> <!-- צבע הרקע של ה-EditText -->
+    <corners android:radius="10dp"/> <!-- רדיוס הפינות המעוגלות -->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/black"/>
+</shape>

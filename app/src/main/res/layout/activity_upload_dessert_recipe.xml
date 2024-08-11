@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.digitalkitchen.UploadUpdateRecipe.Upload_dessert_recipe">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar_top"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מתכון חדש"
+        android:textColor="@color/_______color"
+        android:textSize="25dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_baseline_arrow_back_24_red"/>
+
+
+    <ImageView
+        android:id="@+id/iv_foodImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/shadow"
+        android:src="@drawable/upload_img5"/>
+
+
+    <EditText
+        android:id="@+id/text_recipe_name"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:hint=" שם המתכון"
+        android:minHeight="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/text_ingredients"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint=" מרכיבים"
+        android:minHeight="48dp"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/text_preparation"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="470dp"
+        android:hint=" אופן הכנה"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/text_time"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint=" זמן הכנה"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/base_ek1_color"
+        android:onClick="btnSelectImage"
+        android:text=" בחר תמונה"
+        android:gravity="center"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="600dp"
+        android:textColor="@color/_______color"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="665dp"
+        android:backgroundTint="@color/base_ek1_color"
+        android:onClick="btnUploadRecipe"
+        android:gravity="center"
+        android:text=" צור מתכון"
+        android:textColor="@color/_______color"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="760dp"
+        android:src="@drawable/navbar_menu"/>
+
+    <ImageView
+        android:id="@+id/homeBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="775dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/category_img6"/>
+
+    <ImageView
+        android:id="@+id/profileBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="775dp"
+        android:layout_marginLeft="275dp"
+        android:src="@drawable/category_img7"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/category"
+        android:text="dessert"/>
+
+</RelativeLayout>

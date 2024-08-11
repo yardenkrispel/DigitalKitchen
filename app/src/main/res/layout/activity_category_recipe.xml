@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.digitalkitchen.Category.CategoryRecipeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navbar_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="קטגוריות"
+            android:textColor="@color/_______color"
+            android:textSize="40dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/leftIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="83dp"
+            android:src="@drawable/ic_baseline_arrow_back_24_red"/>
+
+        <ImageView
+            android:id="@+id/starterId"
+            android:layout_width="200dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="200dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_edittext"
+            android:src="@drawable/category_img1"/>
+
+
+        <ImageView
+            android:id="@+id/mainId"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="205dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_edittext"
+            android:src="@drawable/category_img2"/>
+
+
+        <ImageView
+            android:id="@+id/desertId"
+            android:layout_width="200dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="480dp"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_edittext"
+            android:scaleType="centerCrop"
+            android:src="@drawable/category_img3"/>
+
+
+        <ImageView
+            android:id="@+id/drinksId"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="205dp"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_edittext"
+            android:scaleType="centerCrop"
+            android:src="@drawable/category_img4"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="760dp"
+            android:src="@drawable/navbar_menu"/>
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="775dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/category_img6" />
+
+        <ImageView
+            android:id="@+id/profileBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="775dp"
+            android:layout_marginLeft="275dp"
+            android:src="@drawable/category_img7"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "261091224289",
+    "firebase_url": "https://digitalkitchen-70782-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "digitalkitchen-70782",
+    "storage_bucket": "digitalkitchen-70782.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261091224289:android:d73cfbb011f133ce75e5a0",
+        "android_client_info": {
+          "package_name": "com.example.digitalkitchen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDviri_LNk9EZCivja_X0LvCJcKJbaQjh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

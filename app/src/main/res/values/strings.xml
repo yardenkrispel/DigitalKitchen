@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Digital kitchen</string>
+    <string-array name="numbers">
+        <item>ארוחות בוקר</item>
+        <item>עיקרית</item>
+        <item>קינוחים</item>
+        <item>תוספות</item>
+    </string-array>
+    <color name="redColor">#DF4E4E</color>
+
+</resources>

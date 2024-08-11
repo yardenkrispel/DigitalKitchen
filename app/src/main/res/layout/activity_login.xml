@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="860dp"
+    android:background="@drawable/img"
+tools:context="com.example.digitalkitchen.LoginRegisterProfile.login_activity">
+        <include layout="@layout/loginbar"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/digitalkitchenbig"
+            android:layout_marginTop="120dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/register_layout_img4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="התחברות"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="310dp"
+            android:drawablePadding="12dp"
+            android:layout_marginLeft="116dp"
+            android:ems="10"/>
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="350dp"
+            android:drawablePadding="12dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:drawableRight="@drawable/ic_baseline_person_pin_24"
+            android:hint="שם משתמש"
+            android:paddingStart="12dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="420dp"
+            android:drawablePadding="12dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:hint="                                          סיסמא"
+            android:gravity="right"
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_design"
+            android:backgroundTint="@color/base_ek1_color"
+            android:text="התחבר"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="520dp"
+            android:textColor="@color/_______color"/>
+
+    </RelativeLayout>
